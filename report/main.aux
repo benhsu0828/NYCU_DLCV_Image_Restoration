@@ -1,0 +1,66 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\citation{potlapalli2023promptir}
+\citation{potlapalli2023promptir}
+\citation{zamir2022restormer}
+\citation{cui2024adair}
+\citation{kong2023fftformer}
+\citation{hu2018se}
+\HyPL@Entry{0<</S/D>>}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Method}{1}{section.2}\protected@file@percent }
+\newlabel{sec:method}{{2}{1}{Method}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Baseline: PromptIR}{1}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Frequency Modulation Branch (AdaIR-style)}{1}{subsection.2.2}\protected@file@percent }
+\citation{takikawa2019gscnn}
+\citation{charbonnier1994two}
+\citation{wang2004ssim}
+\citation{tarvainen2017meanteacher}
+\citation{lim2017edsr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Channel Attention (SE)}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Gated Prompt Fusion}{2}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Loss Function}{2}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Weight EMA (Exponential Moving Average)}{2}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Test-Time Augmentation (x8 Self-Ensemble)}{2}{subsection.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.8}Overall Pipeline}{2}{subsection.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.9}Data Processing and Augmentation}{3}{subsection.2.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.10}Hyperparameters}{3}{subsection.2.10}\protected@file@percent }
+\newlabel{sec:hparam}{{2.10}{3}{Hyperparameters}{subsection.2.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Training hyperparameters.}}{3}{table.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:hparam}{{1}{3}{Training hyperparameters}{table.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{3}{section.3}\protected@file@percent }
+\newlabel{sec:results}{{3}{3}{Results}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Leaderboard}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Public leaderboard PSNR. ``Ours'' includes the AdaIR-style FFTBlock, SE, gated prompt fusion, Charbonnier + SSIM + frequency losses, weight EMA and $8\times $ self-ensemble TTA.}}{3}{table.caption.2}\protected@file@percent }
+\newlabel{tab:leaderboard}{{2}{3}{Public leaderboard PSNR. ``Ours'' includes the AdaIR-style FFTBlock, SE, gated prompt fusion, Charbonnier + SSIM + frequency losses, weight EMA and $8\times $ self-ensemble TTA}{table.caption.2}{}}
+\bibstyle{unsrt}
+\bibdata{references}
+\bibcite{potlapalli2023promptir}{1}
+\bibcite{zamir2022restormer}{2}
+\bibcite{cui2024adair}{3}
+\bibcite{kong2023fftformer}{4}
+\bibcite{hu2018se}{5}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Competition Ranking}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Public-leaderboard ranking for the final submission.}}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:competition}{{1}{4}{Public-leaderboard ranking for the final submission}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Wandb Logs}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{fig:train_loss}{{2a}{4}{Training loss curve}{figure.caption.4}{}}
+\newlabel{sub@fig:train_loss}{{a}{4}{Training loss curve}{figure.caption.4}{}}
+\newlabel{fig:val_psnr}{{2b}{4}{Validation PSNR curve (EMA weights)}{figure.caption.4}{}}
+\newlabel{sub@fig:val_psnr}{{b}{4}{Validation PSNR curve (EMA weights)}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Training logs: (a) training loss, (b) validation PSNR.}}{4}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:wandb_curves}{{2}{4}{Training logs: (a) training loss, (b) validation PSNR}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Qualitative Results}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Qualitative results on the validation split. Left: degraded input; middle: model prediction; right: clean ground truth.}}{4}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:val_example}{{3}{4}{Qualitative results on the validation split. Left: degraded input; middle: model prediction; right: clean ground truth}{figure.caption.5}{}}
+\bibcite{takikawa2019gscnn}{6}
+\bibcite{charbonnier1994two}{7}
+\bibcite{wang2004ssim}{8}
+\bibcite{tarvainen2017meanteacher}{9}
+\bibcite{lim2017edsr}{10}
+\gdef\svg@ink@ver@settings{{\m@ne }{inkscape}{\m@ne }}
+\gdef \@abspage@last{5}

@@ -1,0 +1,53 @@
+\begin{thebibliography}{10}
+
+\bibitem{potlapalli2023promptir}
+Vaishnav Potlapalli, Syed~Waqas Zamir, Salman~H. Khan, and Fahad~Shahbaz Khan.
+\newblock Promptir: Prompting for all-in-one image restoration.
+\newblock In {\em Advances in Neural Information Processing Systems (NeurIPS)}, 2023.
+
+\bibitem{zamir2022restormer}
+Syed~Waqas Zamir, Aditya Arora, Salman Khan, Munawar Hayat, Fahad~Shahbaz Khan, and Ming-Hsuan Yang.
+\newblock Restormer: Efficient transformer for high-resolution image restoration.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 5728--5739, 2022.
+
+\bibitem{cui2024adair}
+Yuning Cui, Wenqi Ren, Xiaochun Cao, and Alois Knoll.
+\newblock {AdaIR}: Adaptive all-in-one image restoration via frequency mining and modulation.
+\newblock In {\em International Conference on Learning Representations (ICLR)}, 2024.
+
+\bibitem{kong2023fftformer}
+Lingshun Kong, Jiangxin Dong, Jianjun Ge, Mingqiang Li, and Jinshan Pan.
+\newblock Efficient frequency domain-based transformers for high-quality image deblurring.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 2023.
+
+\bibitem{hu2018se}
+Jie Hu, Li~Shen, and Gang Sun.
+\newblock Squeeze-and-excitation networks.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 7132--7141, 2018.
+
+\bibitem{takikawa2019gscnn}
+Towaki Takikawa, David Acuna, Varun Jampani, and Sanja Fidler.
+\newblock {Gated-SCNN}: Gated shape {CNNs} for semantic segmentation.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, 2019.
+
+\bibitem{charbonnier1994two}
+Pierre Charbonnier, Laure Blanc-Feraud, Gilles Aubert, and Michel Barlaud.
+\newblock Two deterministic half-quadratic regularization algorithms for computed imaging.
+\newblock In {\em Proceedings of the IEEE International Conference on Image Processing (ICIP)}, volume~2, pages 168--172, 1994.
+
+\bibitem{wang2004ssim}
+Zhou Wang, Alan~C. Bovik, Hamid~R. Sheikh, and Eero~P. Simoncelli.
+\newblock Image quality assessment: From error visibility to structural similarity.
+\newblock {\em IEEE Transactions on Image Processing}, 13(4):600--612, 2004.
+
+\bibitem{tarvainen2017meanteacher}
+Antti Tarvainen and Harri Valpola.
+\newblock Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results.
+\newblock In {\em Advances in Neural Information Processing Systems (NeurIPS)}, 2017.
+
+\bibitem{lim2017edsr}
+Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung~Mu Lee.
+\newblock Enhanced deep residual networks for single image super-resolution.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, pages 136--144, 2017.
+
+\end{thebibliography}

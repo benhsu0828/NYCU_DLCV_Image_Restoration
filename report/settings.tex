@@ -1,0 +1,49 @@
+% 設定頁面邊距
+\geometry{
+    a4paper,
+    left=1cm,
+    right=1cm,
+    top=2cm,
+    bottom=2cm
+}
+
+% 設定字型
+\setmainfont[
+    Path = ./fonts/Times_New_Roman/,
+    BoldFont = *-bold,
+    ItalicFont = *-italic,
+    BoldItalicFont = *-bold_italic
+]{times}
+
+\setmonofont[
+    Path = ./fonts/Roboto_Mono/static/,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-BoldItalic
+]{RobotoMono}
+
+\xeCJKsetup{AutoFakeBold=true, AutoFakeSlant=true}
+\setCJKmainfont[
+    Path = ./fonts/kaiu/,
+]{kaiu}
+\setCJKmonofont{./fonts/kaiu/kaiu.ttf}
+
+% 頁面設定
+\fancyhf{}
+\rfoot{\thepage}
+
+% 設置圖片路徑
+\graphicspath{{fig/}}
+
+% 標題樣式
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{June. 2026}
+\lhead{\textbf{Visual Recognition using Deep Learning
+2026 Spring}}
+\rfoot{\thepage}

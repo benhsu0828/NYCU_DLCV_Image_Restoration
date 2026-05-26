@@ -1,0 +1,8 @@
+*.zip
+hw4_realse_dataset*
+wandb/
+checkpoints/
+result/
+wandb/
+.venv/
+__pycache__/
